@@ -4,6 +4,7 @@ Repository for ESG Data Ingestion Platform design.
 
 ## Structure
 
+```text
 backend/
 frontend/
 docs/
@@ -12,3 +13,4 @@ docs/
 ├── TRADEOFFS.md
 ├── SOURCES.md
 └── README.md
+```
