@@ -1,40 +1,10 @@
 # Tradeoffs
 
-## Synchronous vs Asynchronous Processing
+## SQLite vs PostgreSQL
+SQLite was chosen for simplicity and faster setup.
 
-Chosen:
-Asynchronous
+## Single Service vs Microservices
+A monolithic Django application was chosen to reduce complexity.
 
-Pros:
-- Scalable
-- Faster user experience
-
-Cons:
-- More operational complexity
-
----
-
-## SQL vs NoSQL
-
-Chosen:
-PostgreSQL
-
-Pros:
-- Strong consistency
-- Relational structure fits ESG records
-
-Cons:
-- Less flexible schema
-
----
-
-## Manual Review vs Fully Automated
-
-Chosen:
-Human-assisted review
-
-Pros:
-- Higher data quality
-
-Cons:
-- Additional operational effort
+## Manual Validation vs Automated Validation
+Basic validation was implemented to keep the assignment manageable.
