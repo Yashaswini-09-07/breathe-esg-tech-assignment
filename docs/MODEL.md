@@ -1,43 +1,16 @@
 # Data Model
 
-## Core Entities
+## Organization
+Represents a company using the ESG platform.
 
-### Company
-- company_id
-- name
-- industry
-- country
+## DataSource
+Represents a source of ESG data such as SAP, Utility Bills, or Travel Systems.
 
-### DataSource
-- source_id
-- company_id
-- source_type (SAP, PDF, Excel, API)
-- upload_date
-- status
+## ImportBatch
+Represents a file upload batch imported into the system.
 
-### RawRecord
-- record_id
-- source_id
-- raw_data
-- ingestion_timestamp
+## ActivityRecord
+Stores ESG activity information such as fuel consumption, electricity usage, or travel emissions.
 
-### NormalizedRecord
-- record_id
-- company_id
-- activity_type
-- quantity
-- unit
-- date
-
-### ReviewTask
-- review_id
-- record_id
-- reviewer
-- status
-- comments
-
-## Relationships
-
-Company → DataSource → RawRecord → NormalizedRecord
-
-NormalizedRecord → ReviewTask
+## AuditEntry
+Tracks actions performed on records for transparency and compliance.
