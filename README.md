@@ -1,16 +1,13 @@
-# Breathe ESG Tech Assignment
+## Screenshots
 
-Repository for ESG Data Ingestion Platform design.
+### Django Admin Dashboard
 
-## Structure
+![Admin Dashboard](docs/screenshots/admin_dashboard.png)
 
-```text
-backend/
-frontend/
-docs/
-├── MODEL.md
-├── DECISIONS.md
-├── TRADEOFFS.md
-├── SOURCES.md
-└── README.md
-```
+### API Records Endpoint
+
+![API Records](docs/screenshots/api_records.png)
+
+### GitHub Repository
+
+![GitHub Repository](docs/screenshots/github_repo.png)
